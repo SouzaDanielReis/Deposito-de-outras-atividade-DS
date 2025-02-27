@@ -1,0 +1,11 @@
+Exercício de: Obrigatório a votar ou não
+''!'' Negação
+
+Exercicio-3
+
+var a = 5
+    console. log("pre incremento", ++a);
+        console. log("pre incremento", a++);
+            console. log(a);
+        console. log("pos incremento", ++a);
+    console. log("pre incremento", --a)
