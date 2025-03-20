@@ -1,0 +1,9 @@
+function fahrenheitParaCelsius(fahrenheit) {
+    let celsius = (fahrenheit - 32) * 5 / 9;
+    return celsius;
+}
+
+let temperaturaFahrenheit = 90; 
+let temperaturaCelsius = fahrenheitParaCelsius(temperaturaFahrenheit);
+
+console.log(`${temperaturaFahrenheit}°F é igual a ${temperaturaCelsius.toFixed(2)}°C`);
